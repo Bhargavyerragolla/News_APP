@@ -25,25 +25,25 @@ const Navbar = ({setCategory ,setCountry}) => {
 
          
           <li className="nav-item">
-            <div className="nav-link" onClick={()=>setCategory("business")} >business</div>
+            <div className="nav-link" onClick={()=>setCategory("business")} >Business</div>
           </li>
           <li className="nav-item">
-            <div className="nav-link"  onClick={()=>setCategory("entertainment")} >entertainment</div>
+            <div className="nav-link"  onClick={()=>setCategory("entertainment")} >Entertainment</div>
           </li>
           <li className="nav-item">
-            <div className="nav-link" onClick={()=>setCategory("general")} >general</div>
+            <div className="nav-link" onClick={()=>setCategory("general")} >General</div>
           </li>
           <li className="nav-item">
-            <div className="nav-link" onClick={()=>setCategory("health")} >health</div>
+            <div className="nav-link" onClick={()=>setCategory("health")} >Health</div>
           </li>
           <li className="nav-item">
-            <div className="nav-link"  onClick={()=>setCategory("science")} >science</div>
+            <div className="nav-link"  onClick={()=>setCategory("science")} >Science</div>
           </li>
           <li className="nav-item">
-            <div className="nav-link"  onClick={()=>setCategory("sports")} >sports</div>
+            <div className="nav-link"  onClick={()=>setCategory("sports")} >Sports</div>
           </li>
           <li className="nav-item">
-            <div className="nav-link"onClick={()=>setCategory("technology")} >technology</div>
+            <div className="nav-link"onClick={()=>setCategory("technology")} >Technology</div>
           </li>
          
    
